@@ -1,0 +1,11 @@
+name: n8n Integration Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm n8n request
+        run: echo "n8n successfully triggered GitHub Actions!"
